@@ -1,5 +1,6 @@
 # ROS MELODIC TUTORIALS
 
+This tutorial is used when you have already installed ros and want to get used to with ros environment.
 ## Create workspace in ros-melodic
 ```
 mkdir [workspace name]
