@@ -10,7 +10,7 @@ catkin_make
 ```
 
 ## Create package in workspace
-Imagine that you are in workspace
+Imagine that you are in workspace created above.
 ```
 cd src
 source [workspace name]/devel/setup.bash
