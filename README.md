@@ -21,3 +21,15 @@ source [workspace name]/devel/setup.bash
 catkin_create_pkg [package name] roscpp rospy std_msgs
 ```
 If package is created correctly, you will have CMakeList file, include, package and src folder. You can add more dependencies (roscpp, rospy, ...) when creating package.
+
+## Create and launch nodes
+1. Create .cpp file that contains node you want to run.
+2. Create launch file which will run your .cpp file.
+3. Add executable script to CMakeList.txt file.
+After that, run codes below:
+```
+cd [workspace name]
+source  [workspace name]/devel/setup.bash
+catkin_make
+roslauch [folder containing launch file] [launch file name].lauch
+```
