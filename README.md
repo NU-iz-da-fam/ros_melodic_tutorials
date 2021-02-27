@@ -26,6 +26,7 @@ If package is created correctly, you will have CMakeList file, include, package 
 1. Create .cpp file that contains node you want to run.
 2. Create launch file which will run your .cpp file.
 3. Add executable script to CMakeList.txt file.
+
 After that, run codes below:
 ```
 cd [workspace name]
