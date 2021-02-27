@@ -1,6 +1,8 @@
 # ROS MELODIC TUTORIALS
 
-This tutorial is used when you have already installed ros and want to get used to with ros environment.
+This tutorial is used when you have already installed ros and want to get used to with ros environment. I will leave a link to install ros below in case you haven't installed yet.
+http://wiki.ros.org/melodic/Installation/Ubuntu
+
 ## Create workspace in ros-melodic
 ```
 mkdir [workspace name]
